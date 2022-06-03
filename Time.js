@@ -1,3 +1,4 @@
+//CREATED BY SURVEXE-PC ON GITHUB ON 6/3/2022
 const Time = {
     Since:{
     daysSince:function(udate){
