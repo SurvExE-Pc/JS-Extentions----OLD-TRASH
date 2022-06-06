@@ -28,5 +28,4 @@ I think there called libra- NO THERE CALLED uhh yeh i think your right.
 
 
 
-Please do not use the easyconsole in your files
-if you do 💀
+1234
