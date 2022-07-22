@@ -44,5 +44,5 @@ for(let i = 0;i<urls.length;i++){
     alertTxt.push("Class-Id-Index: \n"+ID+"\n");
 };});document.getElementById("NOTIFICLICKDIV-FORAPI").click();
 } finally {alertTxt.join("\n");console.log("Finished!\nRun the getMessages function to read your messages.")};
-//Uncomment the below line if used in a bookmarklet,
+//Uncomment the below line if used in a bookmarklet.
 //try{getMessages();alert(alertTxt);}catch{alert(alertTxt)};
