@@ -101,8 +101,8 @@ return days(date_1, date_2);},
     min:function(){let date = new Date();return date.getMinutes()},
     msec:function(){let date = new Date();return date.getMilliseconds()},
     year:function(){let date = new Date();return date.getFullYear()},
-    full:function(){return `${Time.Current.month()}/${Time.Current.date()}/${Time.Current.year()} ${Time.Current.hour()}:${Time.Current.min()}:${Time.Current.sec()}:${Time.Current.msec()}`;},
-    fname:function(){let date = new Date(Time.Current.full());return date;},
+    full:function(){return `${Date.prototype.Time.Current.month()}/${Date.prototype.Time.Current.date()}/${Date.prototype.Time.Current.year()} ${Date.prototype.Time.Current.hour()}:${Date.prototype.Time.Current.min()}:${Date.prototype.Time.Current.sec()}:${Date.prototype.Time.Current.msec()}`;},
+    fname:function(){let date = new Date(Date.prototype.Time.Current.full());return date;},
     now:function(){let date = new Date;return date.now;}
     },
     Conv:{
